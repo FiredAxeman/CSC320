@@ -24,6 +24,7 @@ public class BranchingBoolean {
       else {
          System.out.println("Not a balloon");  
       }
+      scnr.close();
 
    }
 }

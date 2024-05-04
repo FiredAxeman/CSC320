@@ -16,6 +16,6 @@ public class FindAlpha {
       if (Character.isLetter(passCode.charAt(1))) {
          System.out.println("Alphabetic at 1");  
       }
-      
+      scnr.close();
    }
 }

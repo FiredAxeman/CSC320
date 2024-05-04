@@ -17,5 +17,6 @@ public class SensorThreshold {
       else {
          System.out.println("Not equal");
       }
+      scnr.close();
    }
 }

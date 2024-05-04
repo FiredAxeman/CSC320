@@ -18,5 +18,6 @@ public class AutoBidder {
          keepGoing = scnr.next().charAt(0);
       }
       System.out.println("");
+      scnr.close();
    }
 }

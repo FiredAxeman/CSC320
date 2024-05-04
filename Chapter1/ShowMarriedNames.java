@@ -25,6 +25,6 @@ public class ShowMarriedNames {
       System.out.println(firstName1 + " and " + firstName2 + " " + lastName2);
       // FIXME: Print two hyphenated last name options, with either last name
       //        appearing first. (A hyphen can be written as "-")
-      
+      scnr.close();
    }
 }

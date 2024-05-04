@@ -9,7 +9,6 @@ public class NestedLoops2 {
       int numColumns;
       int currentRow;
       int currentColumn;
-      char currentColumnLetter;
 
       numRows = scnr.nextInt();
       numColumns = scnr.nextInt();
@@ -22,5 +21,6 @@ public class NestedLoops2 {
       }
 
       System.out.println("");
+      scnr.close();
    }
 }

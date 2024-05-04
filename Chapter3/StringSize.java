@@ -14,7 +14,8 @@ public class StringSize {
       stringSize = userInput.length();
 
       System.out.println("Size of userInput: " + stringSize);
-
+      scnr.close();
       return;
    }
+   
 }

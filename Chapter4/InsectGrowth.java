@@ -15,6 +15,7 @@ public class InsectGrowth {
          numInsects = numInsects * 2;
       }
       System.out.println("");
+      scnr.close();
 
    }
 }

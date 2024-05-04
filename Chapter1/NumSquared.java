@@ -11,6 +11,6 @@ public class NumSquared {
         userNumSquared = userNum * userNum;   // Bug here; fix it when instructed
         
         System.out.println(userNumSquared);   // Output formatting issue here; fix it when instructed
-    
+        scnr.close();
     }
 }

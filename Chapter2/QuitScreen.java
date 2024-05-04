@@ -11,6 +11,6 @@ public class QuitScreen {
   
         /* Your solution goes here  */
         System.out.println("Press the " + letterToQuit + " key " + numPresses + " times to quit.");
-  
+        scnr.close();
      }
 }

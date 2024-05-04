@@ -10,6 +10,7 @@ public class CharMatching {
 
       userInput = scnr.nextLine();
       firstLetter = scnr.nextLine().charAt(0);
+      scnr.close();
 
       if (userInput.charAt(0) == firstLetter) {
          System.out.println("Found match: " + firstLetter);

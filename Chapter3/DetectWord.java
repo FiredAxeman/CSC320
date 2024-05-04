@@ -16,6 +16,6 @@ public class DetectWord {
       else {
          System.out.println("Hello");  
       }
-
+      scnr.close();
    }
 }

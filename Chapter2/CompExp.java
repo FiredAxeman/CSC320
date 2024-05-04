@@ -15,6 +15,7 @@ public class CompExp {
   
         System.out.print("Final result: ");
         System.out.println(finalResult);
+        scnr.close();
      }
     
 }

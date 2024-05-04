@@ -14,5 +14,6 @@ public class Gravity {
         accelGravity = (G * M) / (distCenter * distCenter);
   
         System.out.println(accelGravity);
+        scnr.close();
      }
 }

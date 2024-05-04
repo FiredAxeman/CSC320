@@ -20,5 +20,6 @@ public class TypeCasting {
         avgKids = (double) (numKidsA + numKidsB + numKidsC) / numFamilies;
   
         System.out.println(avgKids);
+        scnr.close();
      }
 }

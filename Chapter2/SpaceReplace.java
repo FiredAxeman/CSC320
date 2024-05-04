@@ -10,6 +10,6 @@ public class SpaceReplace {
         firstName = scnr.next();
         lastName = scnr.next();
         System.out.println(lastName + ", " + firstName);
-  
+        scnr.close();
      }
 }

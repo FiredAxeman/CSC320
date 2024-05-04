@@ -11,7 +11,8 @@ public class HouseRealEstate {
         /* Type your code here. */
         System.out.println("This house is $" + currentPrice + ". The change is $" + (currentPrice - lastMonthsPrice) + " since last month.");
         System.out.println("The estimated monthly mortgage is $" + (currentPrice * 0.051)/12 + ".");
-     }
+        scnr.close();
+    }
 
     
 }

@@ -10,5 +10,6 @@ public class DoubleNum {
       
       
       System.out.println("x doubled is: " + (2 * x));
+      scnr.close();
    }
 }

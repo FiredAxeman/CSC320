@@ -17,5 +17,6 @@ public class DivideByTwoLoop {
       }
 
       System.out.println("");
+      scnr.close();
    }
 }

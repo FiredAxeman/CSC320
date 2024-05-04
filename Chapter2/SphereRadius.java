@@ -12,5 +12,6 @@ public class SphereRadius {
         sphereVolume = (4.0/3.0) * 3.14159265 * (sphereRadius * sphereRadius * sphereRadius);
   
         System.out.printf("%.2f\n", sphereVolume);
+        scnr.close();
      }
 }

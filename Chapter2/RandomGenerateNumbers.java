@@ -13,7 +13,7 @@ public class RandomGenerateNumbers {
         /* Your solution goes here  */
         System.out.println(randGen.nextInt(150 - 100) + 100);
         System.out.println(randGen.nextInt(150 - 100) + 100);
-        
+        scnr.close();
   
      }
 }

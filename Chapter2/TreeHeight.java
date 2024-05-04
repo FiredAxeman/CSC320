@@ -15,5 +15,6 @@ public class TreeHeight {
         treeHeight = Math.tan(angleElevation) * shadowLength;
   
         System.out.println(treeHeight);
+        scnr.close();
      }
 }

@@ -17,7 +17,7 @@ public class OutputWithVars {
       userNum2 = scnr.nextInt();
       System.out.println(userNum  + " + " + userNum2 + " is " + (userNum + userNum2));
       System.out.println(userNum  + " * " + userNum2 + " is " + (userNum * userNum2));
-      
+      scnr.close();
       
       
       

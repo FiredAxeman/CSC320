@@ -14,6 +14,7 @@ public class SimonSays {
 
       simonPattern = scnr.next();
       userPattern  = scnr.next();
+      scnr.close();
 
       /* Your solution goes here  */
       for (i = 0; i < simonPattern.length(); i++) {
@@ -25,7 +26,7 @@ public class SimonSays {
          }
       }
       System.out.println("userScore: " + userScore);
-
+      
       return;
    }
 }

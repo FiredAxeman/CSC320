@@ -12,7 +12,7 @@ public class UpdateNumberOfUsers {
       updateDirection = scnr.nextInt();
 
       numUsers = (updateDirection == 1) ? numUsers + 1 : numUsers - 1;
-
+      scnr.close();
       System.out.println("New value is: " + numUsers);
    }
 }

@@ -17,6 +17,7 @@ public class Constants {
            System.out.println("Flat fee(cents): " + FLAT_FEE_CENTS);
            System.out.println("Cents per pound: " + CENTS_PER_POUND);
            System.out.println("Shipping cost(cents): " + shipCostCents);
+           scnr.close();
         }
     }
 }

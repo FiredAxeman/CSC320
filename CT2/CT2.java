@@ -38,5 +38,6 @@ public class CT2 {
             totalPay = userInput - taxAmount;
             System.out.printf("Gross pay: $%.2f Tax rate: %.0f%% Total pay: $%.2f%n", userInput, taxRate * 100, totalPay);
         }
+        scnr.close();
     }
 }

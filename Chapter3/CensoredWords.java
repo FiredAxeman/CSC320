@@ -15,6 +15,7 @@ public class CensoredWords {
       else {
          System.out.println("Censored");  
       }
+      scnr.close();
 
    }
 }

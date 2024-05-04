@@ -23,6 +23,7 @@ public class Discussion2 {
             if(i == 0) {
                 break;
             }
+            scnr.close();
         }
     }
 }

@@ -14,5 +14,6 @@ public class NonNegativeLooper {
          userNum = scnr.nextInt();
       }
       System.out.println("Done.");
+      scnr.close();
    }
 }

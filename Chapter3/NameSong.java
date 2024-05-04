@@ -19,5 +19,6 @@ public class NameSong {
       songVerse = songVerse.replace("(Name)", userName);
 
       System.out.println(songVerse);
+      scnr.close();
    }
 }

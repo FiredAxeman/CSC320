@@ -16,5 +16,6 @@ public class CombinationStrings {
       secretID = firstName + " " + lastName;
 
       System.out.println(secretID);
+      scnr.close();
    }
 }

@@ -10,7 +10,7 @@ public class CheckPasscode {
 
       hasDigit = false;
       passCode = scnr.next();
-      
+      scnr.close();
       if (Character.isDigit(passCode.charAt(0))) {
          hasDigit = true;
       }

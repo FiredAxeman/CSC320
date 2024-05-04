@@ -15,6 +15,7 @@ public class Arrow {
         System.out.println("" + baseChar + baseChar + baseChar + baseChar + baseChar + headChar + headChar + headChar);
         System.out.println("     " + headChar + headChar);
         System.out.println("     " + headChar);
+        scnr.close();
      }
     
 }

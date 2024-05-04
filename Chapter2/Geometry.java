@@ -8,12 +8,10 @@ public class Geometry {
         double x2;
         double y2;
         double pointsDistance;
-        double xDist;
-        double yDist;
+        
   
         pointsDistance = 0.0;
-        xDist = 0.0;
-        yDist = 0.0;
+        
   
         x1 = scnr.nextDouble();
         y1 = scnr.nextDouble();
@@ -24,6 +22,8 @@ public class Geometry {
         pointsDistance = Math.sqrt( Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
   
         System.out.println(pointsDistance);
+        scnr.close();
+         
     }
     
 }

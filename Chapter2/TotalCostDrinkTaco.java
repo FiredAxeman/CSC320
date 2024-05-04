@@ -15,6 +15,7 @@ public class TotalCostDrinkTaco {
   
         System.out.print("Final result: ");
         System.out.println(finalResult);
+        scnr.close();
      }
 
 }

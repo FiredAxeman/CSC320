@@ -19,5 +19,6 @@ public class UsingBoolean {
       else {
          System.out.println("Not teen");
       }
+      scnr.close();
    }
 }

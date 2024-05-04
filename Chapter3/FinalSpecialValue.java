@@ -15,5 +15,6 @@ public class FinalSpecialValue {
       else {
           System.out.println("Not special number");
       }
+      scnr.close();
    }
 }

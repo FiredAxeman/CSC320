@@ -15,6 +15,8 @@ public class NumPeople {
            System.out.print("There are ");
            System.out.print(numPeople);
            System.out.println(" people.");
-        }
+           scnr.close();
     }
+        }
+        
 }

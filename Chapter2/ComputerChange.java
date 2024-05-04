@@ -18,5 +18,6 @@ public class ComputerChange {
       System.out.println(numFives);
       System.out.print("numOnes: ");
       System.out.println(numOnes);
+      scnr.close();
    }
 }

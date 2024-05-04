@@ -18,6 +18,7 @@ public class ConvertPositive {
          userNum = 1;
       }
       System.out.println("Final: " + userNum);
+      scnr.close();
 
    }
 }

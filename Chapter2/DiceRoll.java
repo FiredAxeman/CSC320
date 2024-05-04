@@ -13,6 +13,6 @@ public class DiceRoll {
       /* Your solution goes here  */
       System.out.println(randGen.nextInt(10));
       System.out.println(randGen.nextInt(10));
-
+      scnr.close();
    }
 }

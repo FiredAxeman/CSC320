@@ -21,5 +21,6 @@ public class MusicalNote {
       System.out.print(" ");
       System.out.printf("%.2f", key * Math.pow(r,4));
       System.out.println();
+      scnr.close();
    }
 }

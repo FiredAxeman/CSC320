@@ -17,5 +17,6 @@ public class TextMsgDecoder {
                 System.out.println(abbreviations[i] + ": " + meanings[i]);
             }
         }
+        scnr.close();
     }
 }

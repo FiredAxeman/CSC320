@@ -62,5 +62,6 @@ public class ExactChange {
       else if (numPennies >= 2) {
           System.out.println(numPennies + " Pennies");
       }
+      scnr.close();
    }
 }

@@ -22,7 +22,7 @@ public class calories {
       
       System.out.printf("Women: %.2f calories\n", women);
       System.out.printf("Men: %.2f calories\n", men);
-     
+      scnr.close();
       
    }
 }

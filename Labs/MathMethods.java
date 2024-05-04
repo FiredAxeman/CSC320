@@ -15,7 +15,6 @@ public class MathMethods {
       double powxz;
       double powyz;
       double powxyz;
-      double powxxypowz;
       double abvaly;
       double xypowz;
       double xypowzsr;
@@ -25,6 +24,8 @@ public class MathMethods {
       abvaly = Math.abs(y);
       xypowz = Math.pow( x * y, z);
       xypowzsr = Math.sqrt(xypowz);
+      scnr.close();
+      
    
       
       

@@ -27,5 +27,6 @@ public class TextMsgAbbreviation {
       else {
          System.out.println("Unknown");  
       }
+      scnr.close();
    }
 }

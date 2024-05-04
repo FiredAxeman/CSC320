@@ -26,5 +26,6 @@ public class TextMsgExpander {
         
         // Output the expanded line
         System.out.println("\nExpanded: " + input);
+        scnr.close();
      }
 }

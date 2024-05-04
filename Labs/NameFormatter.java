@@ -25,5 +25,6 @@ public class NameFormatter {
       String formattedName = formatName(fullName);
       formattedName = formattedName.trim();
       System.out.println(formattedName);
+      scnr.close();
    }
 }

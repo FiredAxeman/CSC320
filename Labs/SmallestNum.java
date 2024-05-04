@@ -10,12 +10,15 @@ public class SmallestNum {
       int i;
       int lowest;
       userNum = lowest = scnr.nextInt();
+      scnr.close();
       for (i =0; i < 2; i++) {
          userNum = scnr.nextInt();
          if (userNum < lowest){
          lowest = userNum;
          }
       }
+      
       System.out.println(lowest);
+      
    }
 }

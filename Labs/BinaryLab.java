@@ -7,6 +7,7 @@ public class BinaryLab {
       /* Type your code here. */
       Scanner scnr = new Scanner(System.in);
       int number = scnr.nextInt();
+      scnr.close();
       if (number <= 0) {
       System.out.println("Error: Please enter a positive integer.");
       return;
@@ -20,5 +21,6 @@ public class BinaryLab {
     }
     
     System.out.println(binaryString);
+    
    }
 }

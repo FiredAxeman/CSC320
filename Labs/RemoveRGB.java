@@ -39,6 +39,7 @@ public class RemoveRGB {
       else if ((userInput1 == 0) && (userInput2 == 0) && (userInput3 == 0)) {
          System.out.println(userInput1 + " " + userInput2 + " " + userInput3);
       }
+      scnr.close();
       
    }
 }

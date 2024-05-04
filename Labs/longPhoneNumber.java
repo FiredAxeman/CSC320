@@ -16,6 +16,7 @@ public class longPhoneNumber {
       System.out.print(phoneNumber % 10000000 / 10000 );
       System.out.print("-");
       System.out.println(phoneNumber % 10000);
+      scnr.close();
       
    }
 }

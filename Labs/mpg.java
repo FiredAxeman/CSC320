@@ -18,6 +18,6 @@ public class mpg {
       System.out.print(" ");
       System.out.printf("%.2f", costMpg * 500);
       System.out.println();
-      
+      scnr.close();
    }
 }

@@ -24,7 +24,7 @@ public class Statistics {
       System.out.print(" ");
       System.out.printf("%.3f", avg);
       System.out.println();
-      
+      scnr.close();
       /* Type your code here. */
    }
 }

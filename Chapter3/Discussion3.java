@@ -1,5 +1,4 @@
 package Chapter3;
-import System.java.util.Scanner;
 
 public class Discussion3 {
     public static void main(String[] args) {

@@ -35,5 +35,6 @@ public class SeasonFinder {
       else {
          System.out.println("Invalid");  
       }
+      scnr.close();
    }
 }

@@ -18,7 +18,7 @@ public class PaintEstimator {
       System.out.println("Wall area: " + wallArea + " square feet");
       System.out.println("Paint needed: " + (wallArea / paint) + " gallons");
       System.out.println("Cans needed: " + (int)Math.round(wallArea/paint) + " can(s)");
-      
+      scnr.close();
       // FIXME (1): Prompt user to input wall's width
       // Calculate and output wall area
       // FIXME (1): Calculate the wall's area

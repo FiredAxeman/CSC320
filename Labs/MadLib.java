@@ -13,6 +13,7 @@ public static void main(String[] args) {
       genericLocation = scnr.next();
       wholeNumber = scnr.nextInt();
       pluralNoun = scnr.next();
+      scnr.close();
    
       /* Type your code here. */
    

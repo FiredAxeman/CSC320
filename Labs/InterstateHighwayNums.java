@@ -9,6 +9,7 @@ public class InterstateHighwayNums {
       
 
       highwayNumber = scnr.nextInt();
+      scnr.close();
       
       /* Type your code here. */
       if (highwayNumber >= 1 && highwayNumber <= 999) {

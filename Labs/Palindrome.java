@@ -23,6 +23,7 @@ public class Palindrome {
          }
          left++;
          right--;
+         scnr.close();
       }
    }
 }

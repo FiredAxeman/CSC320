@@ -43,6 +43,5 @@ public class Automobile {
             System.out.println("Vehicle does not match.");
             return false;
         }
-
     }
 }

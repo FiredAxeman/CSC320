@@ -1,5 +1,4 @@
 public class Automobile {
-
   private String make;
   private String model;
   private String color;
@@ -8,63 +7,76 @@ public class Automobile {
 
   // Default constructor
   public Automobile() {
+      this.make = "";
+      this.model = "";
+      this.color = "";
+      this.year = 0;
+      this.mileage = 0;
   }
 
   // Parameterized constructor
-  public Automobile(String make, String model, String color, int year, int mileage) throws Exception {
-    if (make.isEmpty() || model.isEmpty() || color.isEmpty() || year < 1900 || mileage < 0) {
-      throw new Exception("Invalid vehicle information provided.");
-    }
-    this.make = make;
-    this.model = model;
-    this.color = color;
-    this.year = year;
-    this.mileage = mileage;
+  public Automobile(String make, String model, String color, int year, int mileage) {
+      this.make = make;
+      this.model = model;
+      this.color = color;
+      this.year = year;
+      this.mileage = mileage;
   }
 
   // Add a new vehicle
-  public String addNewVehicle(String make, String model, String color, int year, int mileage) throws Exception {
-    try {
-      new Automobile(make, model, color, year, mileage);
-      this.make = make;
-      this.model = model;
-      this.color = color;
-      this.year = year;
-      this.mileage = mileage;
-      return "Vehicle added successfully.";
-    } catch (Exception e) {
-      return e.getMessage();
-    }
+  public String addVehicle(String make, String model, String color, int year, int mileage) {
+      try {
+          this.make = make;
+          this.model = model;
+          this.color = color;
+          this.year = year;
+          this.mileage = mileage;
+          return "Vehicle added successfully.";
+      } catch (Exception e) {
+          return "Failed to add vehicle: " + e.getMessage();
+      }
   }
 
   // List vehicle information
-  public String[] listVehicleInformation() {
-    String[] info = {make, model, color, String.valueOf(year), String.valueOf(mileage)};
-    return info;
+  public String[] listVehicle() {
+      String[] vehicleInfo = new String[5];
+      try {
+          vehicleInfo[0] = "Make: " + this.make;
+          vehicleInfo[1] = "Model: " + this.model;
+          vehicleInfo[2] = "Color: " + this.color;
+          vehicleInfo[3] = "Year: " + this.year;
+          vehicleInfo[4] = "Mileage: " + this.mileage;
+      } catch (Exception e) {
+          vehicleInfo[0] = "Failed to list vehicle: " + e.getMessage();
+      }
+      return vehicleInfo;
   }
 
-  // Remove vehicle (sets all attributes to empty/default values)
+  // Remove a vehicle
   public String removeVehicle() {
-    this.make = "";
-    this.model = "";
-    this.color = "";
-    this.year = 0;
-    this.mileage = 0;
-    return "Vehicle removed.";
+      try {
+          this.make = "";
+          this.model = "";
+          this.color = "";
+          this.year = 0;
+          this.mileage = 0;
+          return "Vehicle removed successfully.";
+      } catch (Exception e) {
+          return "Failed to remove vehicle: " + e.getMessage();
+      }
   }
 
-
-  public String updateVehicleAttributes(String make, String model, String color, int year, int mileage) throws Exception {
-    try {
-      new Automobile(make, model, color, year, mileage);
-      this.make = make;
-      this.model = model;
-      this.color = color;
-      this.year = year;
-      this.mileage = mileage;
-      return "Vehicle updated successfully.";
-    } catch (Exception e) {
-      return e.getMessage();
-    }
+  // Update vehicle attributes
+  public String updateVehicle(String make, String model, String color, int year, int mileage) {
+      try {
+          this.make = make;
+          this.model = model;
+          this.color = color;
+          this.year = year;
+          this.mileage = mileage;
+          return "Vehicle updated successfully.";
+      } catch (Exception e) {
+          return "Failed to update vehicle: " + e.getMessage();
+      }
   }
 }

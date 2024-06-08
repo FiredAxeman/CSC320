@@ -5,7 +5,6 @@ public class Automobile {
   private int year;
   private int mileage;
 
-  // Default constructor
   public Automobile() {
       this.make = "";
       this.model = "";
@@ -14,7 +13,6 @@ public class Automobile {
       this.mileage = 0;
   }
 
-  // Parameterized constructor
   public Automobile(String make, String model, String color, int year, int mileage) {
       this.make = make;
       this.model = model;
@@ -23,7 +21,6 @@ public class Automobile {
       this.mileage = mileage;
   }
 
-  // Add a new vehicle
   public String addVehicle(String make, String model, String color, int year, int mileage) {
       try {
           this.make = make;
@@ -37,7 +34,6 @@ public class Automobile {
       }
   }
 
-  // List vehicle information
   public String[] listVehicle() {
       String[] vehicleInfo = new String[5];
       try {
@@ -52,7 +48,6 @@ public class Automobile {
       return vehicleInfo;
   }
 
-  // Remove a vehicle
   public String removeVehicle() {
       try {
           this.make = "";
@@ -66,7 +61,6 @@ public class Automobile {
       }
   }
 
-  // Update vehicle attributes
   public String updateVehicle(String make, String model, String color, int year, int mileage) {
       try {
           this.make = make;
